@@ -15,7 +15,6 @@ img {
     background-color: lavender;
     padding: 20px;
     border: 2px black solid;
-    border-radius: 30px;
 }
 
 header h1 {
@@ -26,12 +25,19 @@ header h1 {
 
 nav {
     text-align: center;
+    background-color: peru;
+    margin: 0 auto;
+    padding: 25px;
+    border: 2px lavender solid;
 }
 
 nav a {
-    color: teal;
+    text-decoration: none;
+    color: lavender;
     font-size: 20px;
-    margin: 0 20px;
+    margin: 10px;
+    padding: 10px;
+    border: 4px lavender double;
 }
 
 nav a:hover {
@@ -63,6 +69,5 @@ footer {
     padding: 40px 0;
     text-align: center;
     color: black;
-    border: 2px black solid;
-    border-radius: 20px;
+    border: 2px lavender solid;
 }
