@@ -4,3 +4,4 @@
 <br><a href="lab_2/index.html" target="_blank">Lab 2</a> - Pink Fairy Armadillos
 <br><a href="lab_3/index.html" target="_blank">Lab 3</a> - Spider Monkeys
 <br><a href="lab_4/index.html" target="_blank">Lab 4</a> - Spider Monkeys with CSS
+<br><a href="mid-term/index.html" target="_blank">Midterm</a> - All About Allium
