@@ -1,0 +1,153 @@
+/*global styles*/
+body {
+    background-color: #FF827A;
+    color: #2A0002;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: 2px ridge grey; 
+    width: 75%;
+}
+
+a {
+    color: #2A0002;
+    text-decoration: none;
+}
+
+a:hover {
+    letter-spacing: 1px;
+}
+
+/*mobile styles*/
+header {
+    background-color: #860009;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.75em;
+    color: #FF827A;
+}
+
+nav {
+    background-color: #FA4347;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+nav li a:hover {
+    background-color: #2A0002;
+    color: #FA4347;
+}
+
+main {
+    background-color: #D1A657;
+    margin: 20px 0 0;
+    padding: 20px;
+}
+
+main h2{
+    font-size: 1.75em;
+}
+
+.desktop {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #FF827A;
+    padding: 20px;
+}
+
+/* header styles */
+@media only screen and (min-width: 768px) {
+    header {
+       background-image: url('../images/banner.jpg');
+       background-size: cover;
+       background-position: center center;
+       font-size: 2em;
+       text-shadow: 2px 2px #2A0002;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        padding: 20px;
+    }
+
+    main {
+        margin: 0 20px;
+        padding: 5px;
+        display: flex;
+    }
+
+    section, aside {
+        border: 4px #FF827A solid;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    section {
+        width: 70%;
+    }
+
+    aside { 
+        width: 30%;
+    }
+}
+
+/* laptop styles */
+@media only screen and (min-width: 1024px) {
+    header {
+        background-image: url('../images/overwater.jpeg');
+        background-size: cover;
+        background-position: center bottom;
+        font-size: 3em;
+    }
+    
+    nav li a {
+        font-size: 1.5em;
+        padding: 20px 40px;
+    }
+
+    main h2 {
+        font-size: 2em;
+    }
+
+    .active {
+        color: #FA4347;
+        letter-spacing: 1px;
+        background-color: #2A0002;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    #container {
+        width: 75%;
+        margin: 20px auto;
+        border: 4px #2A0002 double;
+    }
+}

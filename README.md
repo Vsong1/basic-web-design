@@ -6,3 +6,4 @@
 <br><a href="lab_4/index.html" target="_blank">Lab 4</a> - Spider Monkeys with CSS
 <br><a href="mid-term/index.html" target="_blank">Midterm</a> - All About Allium
 <br><a href="lab_5/index.html" target="_blank">Lab 5</a> - The Festival of Lanterns
+<br><a href="lab_6/index.html" target="_blank">Lab 6</a> - The Festival of Lanterns (responsive)
