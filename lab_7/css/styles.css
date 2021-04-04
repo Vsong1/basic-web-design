@@ -1,0 +1,167 @@
+/* global styles */
+body {
+    background-color: black;
+    font-family: cursive;
+    color: lightblue;
+    text-align: center;
+}
+
+video, iframe {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    border: 2px lightblue solid;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    background-color: lightpink;
+}
+
+/* mobile styles */
+header {
+    padding: 10px 20px;
+    font-size: 1.5em;
+}
+
+nav {
+    font-size: 1.5em;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    list-style-type: none;
+    background-color: lightblue;
+    padding: 30px;
+}
+
+main {
+    padding: 0 20px;
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+section {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px lightblue solid;
+}
+
+section a {
+    display: block;
+    color: lightblue;
+    padding: 10px;
+}
+
+section a:hover {
+    color: lightpink;
+}
+
+table {
+    font-size: 0.75em;
+    margin: auto;
+    border: 2px lightblue solid;
+}
+
+th, td {
+    border: 2px lightblue solid;
+    padding: 5px;
+}
+
+footer {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+/* tablet styles */
+@media only screen and (min-width: 768px) {
+    nav {
+        background-color: lightblue;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 20px 40px;
+    }
+
+    main {
+        padding: 0 30px;
+    }
+
+    section {
+        background-color: lightblue;
+        color: black;
+    }
+
+    section a {
+        color: black;
+    }
+
+    table {
+        border-color: black;
+    }
+
+    th, td {
+        padding: 10px;
+        border-color: black;
+        background-color: black;
+        color: lightblue;
+    }
+
+    td a {
+        color: lightblue;
+    }
+}
+
+/* desktop styles */
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: slategray;
+        padding: 20px 5%;
+    }
+    
+    header {
+        font-size: 2.5em;
+    }
+
+    nav {
+        font-size: 2em;
+    }
+
+    nav li:hover {
+    letter-spacing: 2px;
+    }
+
+    #container {
+        background-color: black;
+        margin: 20px;
+        padding: 10px 0;
+        border-radius: 20px;
+    }
+
+    main, footer {
+        font-size: 1.5em;
+    }
+
+    video, iframe {
+        border: 4px black solid;
+    }
+
+
+}
