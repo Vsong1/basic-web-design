@@ -1,0 +1,152 @@
+/*global styles*/
+body {
+    background-color: cadetblue;
+    color: whitesmoke;
+    text-shadow: 0.5px 0.5px black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header h1, h2, h3 {
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    text-align: center;
+    background-color: teal;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+audio {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+/* mobile styles */
+body {
+    margin: 10px;
+}
+
+header h1 {
+    font-size: 3em;
+    padding: 3em 0;
+}
+
+h2 {
+    display: none;
+}
+
+nav {
+    font-size: 1.5em;
+}
+
+nav li {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+nav li:hover {
+    background-color: tan;
+}
+
+.bx-wrapper {
+    display: none;
+}
+
+#menu {
+    display: none;
+}
+
+section {
+    border-radius: 8px;
+    background-color: teal;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+section a {
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+/* tablet styles */
+@media only screen and (min-width: 768px) {
+    h2 {
+        display: block;
+        font-size: 2em;
+    }
+
+    .slicknav_menu {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+}
+
+/* desktop styles */
+@media only screen and (min-width: 1024px) {
+
+    #container {
+        padding: 0 40px;
+    }
+
+    nav {
+        background-color: whitesmoke;
+        border-radius: 8px;
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline-block;
+        border-radius: 4px;
+    }
+    
+    a:hover {
+        letter-spacing: 2px;
+    }
+
+    audio {
+        margin: 0;
+    }
+
+    img {
+        margin: auto;
+        max-height: 560px;
+    }
+
+    p, li {
+        font-size: 1.25em;
+    }
+
+    div.bx-wrapper {
+        display: block;
+        margin: 40px 20%;
+    }
+
+    div.bx-pager {
+        display: block;
+        margin: auto;
+    }
+
+}

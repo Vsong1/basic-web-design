@@ -1,5 +1,4 @@
 # My Web Projects # 
---- 
 ## WEBT1320 ~ Vivian Song ~ TR9:30 ##
 <a href="hello_world/index.html" target="_blank">Lab 1</a> - Circadian Sleep Rhythms
 <br><a href="lab_2/index.html" target="_blank">Lab 2</a> - Pink Fairy Armadillos

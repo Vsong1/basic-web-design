@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 8 - Strumming Strings</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+            $( "#tabs" ).tabs();
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+        <header id="top">
+            <h1>Strumming Strings</h1>
+        </header>
+        <nav>
+            <ul id="menu">
+                <li><a href="#history">A Brief History</a></li>
+                <li><a href="#instruments">Types of Instruments</a></li>
+                <li><a href="#songs">Famous Works</a></li>
+                <li><a href="https://fiddlershop.com/" target="_blank">A Strings Store</a></li>
+            </ul>
+        </nav>
+        <main>
+
+            <h2>Your Basic Overview of Classical String Instruments</h2>
+
+            <section id="history">
+                <h3>A Brief History of String Instruments</h3>
+                <p>Stringed instruments have always been essential to the classical orchestra. Even from the beginning: from Bach to Vivaldi to Tchaikovsky, every orchestral composer has integrated strings into their music somehow. The Baroque period was the start of the dominance of strings. With the poor quality of brass and detailed wind instruments, and with the lack of modern keyboard instruments, composers relied on the wide range of strings to meet their musical needs. </p>
+                <p><a href="#top">Back to Top</a></p>
+            </section>
+
+            <section id="instruments">
+                <h3>Types of Classical String Instruments</h3>
+                <div class="slider">
+                    <div><img src="images/band.jpg" alt="violins in a band"></div>
+                    <div><img src="images/violin.jpg" alt="violinists"></div>
+                    <div><img src="images/viola.jpeg" alt="violists"></div>
+                    <div><img src="images/cello.jpeg" alt="a cello"></div>
+                    <div><img src="images/bass.jpg" alt="double basses"></div>
+                </div>
+                <ol>
+                    <li>Strings are essential to the melody of an orchestral piece.</li>
+                    <li>Violins are the most popular of classical strings. They play on the highest register and typically play in two sections.</li>
+                    <li>Violas are simply violins played on a lower register. They are often used to play harmonies.</li>
+                    <li>Cellos in solo pieces only came about a few decades ago. Before then, cellists almost always played in orchestras.</li>
+                    <li>Double basses are the lowest of all strings. They are sometimes plucked rather than bowed, and are also seen in jazz/pop music.</li>
+                </ol>
+                <p><a href="#top">Back to Top</a></p>
+            </section>
+
+            <section id="songs">
+                <h3>Famous Works for Strings</h3>
+
+                <div id="tabs">
+                    <ul>
+                      <li><a href="#tabs-1">The Four Seasons</a></li>
+                      <li><a href="#tabs-2">String Quartet in C</a></li>
+                      <li><a href="#tabs-3">Adagio in B-flat minor</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        <h4>"I. Spring" from Vivaldi's <i>The Four Seasons</i></h4>
+                        <audio controls>
+                            <source src="audio/vivaldi.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    <div id="tabs-2">
+                        <h4>Haydn's <i>String Quartet in C</i>, "Emperor Quartet"</h4>
+                        <audio controls>
+                            <source src="audio/haydn.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    <div id="tabs-3">
+                        <h4>"Adagio in B-flat minor" of Barber's <i>String Quartet, Op. 11</i></h4>
+                        <audio controls>
+                            <source src="audio/barber.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+
+                <p><a href="#top">Back to Top</a></p>
+            </section>
+
+        </main>
+        <footer>
+            <p>&copy; 2021 Lab 8 - Strumming Strings</p>
+        </footer>
+    </div>
+    <script src="js/zenscroll-min.js"></script>
+</body>
+</html>
