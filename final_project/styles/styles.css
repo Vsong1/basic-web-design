@@ -35,10 +35,11 @@ nav a {
     color: #E7D6AA;
 }
 
-main h1 {
+#motto p {
     text-align: center;
     color: #FFF2CD;
     text-shadow: 1px 1px black;
+    ;
 }
 
 main h2, h4 {
@@ -72,6 +73,10 @@ footer {
 #container {
     width: 100%;
     background-color: #E7D6AA;
+}
+
+h6 {
+    display: none;
 }
 
 /* mobile styles */
@@ -185,8 +190,10 @@ footer {
         background-image: url("macarons.jpg");
         background-position: center;
         background-size: cover;
+        font-weight: bold;
         padding: 10px 0;
         max-width: 100%;
+        font-size: 2em;
     }
 
     #home_section, #mobile {
@@ -353,14 +360,14 @@ footer {
 
     #motto {
         padding: 50px;
-        font-size: 2em;
+        font-size: 4em;
     }
 
     #motto:hover {
         background-image: url('plumcake.jpg');
     }
 
-    #motto:hover h1 {
+    #motto:hover p {
         color: #6CC9D7;
     }
 
