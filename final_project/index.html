@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cookbook</title>
+    <link rel="shortcut icon" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $( "#accordion" ).accordion({
+                collapsible: true,
+                active: false,
+                heightStyle: "content"
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <div id="container">
+
+        <header>
+
+            <img src="images/logo.png" alt="The Cookbook" id="logo"><h1>THE COOKBOOK</h1>
+
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html" id="active">HOME</a></li>
+                    <li><a href="2appet.html">APPETIZERS</a></li>
+                    <li><a href="3main.html">ENTRÉES</a></li>
+                    <li><a href="4sides.html">SIDES</a></li>
+                    <li><a href="5dessert.html">DESSERTS</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+            <section id="motto">
+                <h1>"Food is Love"</h1>
+                <h1>-Grandma Sally-</h1>
+            </section>
+            
+            <div id="home">
+
+                <aside id="mobile">
+                    <h3>This Week's Cookbook Special</h3>
+                    <p>Grandma's Fanciest Meat Pie</p>
+                    <p>$2.99/slice</p>
+                    <p>Lean ground beef, ground pork, onions, and potato wedges baked in a soft and flaky homemade pie crust. Spiced with Grandma's special spice blend.</p>
+                </aside>    
+
+                <section id="home_section">
+                    <h2>Welcome to The Cookbook</h2>
+                    <p>Located on the edge of downtown Litteltown, The Cookbook is a small restaurant full of big surprises. All of our dishes are inspired by recipes from Grandma Sally's old cookbook. When the cookbook was recovered in Uncle John's attic, we knew that we had to share with everyone the love and joy of delicious homemade food.</p>
+
+                    <h2>Where are we going next?</h2>
+                    <p>We at the Cookbook family <i>love</i> to travel. Summer is coming soon, and we know just the destination! Take a look at where we are going this year! (Note: Best viewed in fullscreen!)</p>
+                    <iframe src="https://www.youtube.com/embed/L2q318dZKP0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <div id="accordion">
+                        <h3>Check out what we're listening to today!</h3>
+                        <div>
+                            <p>Aaron Copland's <i>Appalachian Spring</i></p>
+                            <audio controls>
+                                <source src="audio/copland.mp3" type="audio/mp3">
+                            </audio>
+                        </div>
+                    </div>
+
+                </section>
+
+                <aside id="home_aside">
+                    <h3>This Week's Cookbook Special</h3>
+                    <p>Grandma's Fanciest Meat Pie</p>
+                    <p>$2.99/slice</p>
+                    <p>Lean ground beef, ground pork, onions, and potato wedges baked in a soft and flaky homemade pie crust. Spiced with Grandma's special spice blend.</p>
+                </aside>
+
+            </div>
+        </main>
+
+        <footer>
+            <section id="footer_section">
+                <img src="images/map.jpg" alt="corner of Main and 3rd St">
+                <ul>
+                    <li>123 Main St</li>
+                    <li>Litteltown, CT 00000</li>
+                    <li>(123) 456-7890</li>
+                    <li>contactus@thecookbook.com</li>
+                </ul>
+
+            </section>
+
+            <aside id="footer_aside">
+                <!-- HOURS -->
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>HOURS</th>
+                    </tr>
+
+                    <tr>
+                        <td>Monday</td>
+                        <td>11AM-8PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>11AM-8PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>11AM-8PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Thursday</td>
+                        <td>11AM-8PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday</td>
+                        <td>11AM-9PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Saturday</td>
+                        <td>11AM-9PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sunday</td>
+                        <td>CLOSED</td>
+                    </tr>
+                </table>
+            </aside>
+
+            <p>&copy; 2021 The Cookbook WEBT1320 Final Project</p>
+        </footer>
+
+    </div>
+</body>
+</html>

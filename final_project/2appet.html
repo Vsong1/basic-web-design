@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cookbook</title>
+    <link rel="shortcut icon" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $( "#accordion" ).accordion({
+                collapsible: true,
+                active: false,
+                heightStyle: "content"
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <div id="container">
+
+        <header>
+
+            <img src="images/logo.png" alt="The Cookbook" id="logo"><h1>THE COOKBOOK</h1>
+
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="2appet.html" id="active">APPETIZERS</a></li>
+                    <li><a href="3main.html">ENTRÉES</a></li>
+                    <li><a href="4sides.html">SIDES</a></li>
+                    <li><a href="5dessert.html">DESSERTS</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+            <h4>Appetizers</h4>
+
+            <div class="fooditem">
+                <section class="fooditem_section">
+                    <img src="images/chips.jpg" alt="chips and dip">
+                </section>
+
+                <aside class="fooditem_aside">
+                    <ul>
+                        <li>Back-From-School Chips</li>
+                        <li>$4.99</li>
+                        <li>A bowl of crispy tortilla chips drizzled with hot cheese sauce. Topped with freshly chopped carrot and pickle.</li>
+                    </ul>
+                </aside>
+            </div>
+
+            <div class="fooditem">
+                <section class="fooditem_section">
+                    <img src="images/toast.jpg" alt="eggs and toast">
+                </section>
+
+                <aside class="fooditem_aside">
+                    <ul>
+                        <li>Eggs on Toast</li>
+                        <li>$6.99</li>
+                        <li>Delicious fried egg on whole wheat bread, fresh off the stove. Perfect for an appetizer or satisfying breakfast.</li>
+                    </ul>
+                </aside>
+            </div>
+
+            <div class="fooditem">
+                <section class="fooditem_section">
+                    <img src="images/bruschetta.jpg" alt="bruschetta">
+                </section>
+
+                <aside class="fooditem_aside">
+                    <ul>
+                        <li>Bruschetta Boats</li>
+                        <li>$7.99</li>
+                        <li>Grilled bread with a special garlic rub, topped with diced tomatoes, cheese, olive oil and salt. Served cold.</li>
+                    </ul>
+                </aside>
+            </div>
+
+        </main>
+
+        <footer>
+            <section id="footer_section">
+                <img src="images/map.jpg" alt="corner of Main and 3rd St">
+                <ul>
+                    <li>123 Main St</li>
+                    <li>Litteltown, CT 00000</li>
+                    <li>(123) 456-7890</li>
+                    <li>contactus@thecookbook.com</li>
+                </ul>
+
+            </section>
+
+            <aside id="footer_aside">
+                <!-- HOURS -->
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>HOURS</th>
+                    </tr>
+
+                    <tr>
+                        <td>Monday</td>
+                        <td>11AM-8PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>11AM-8PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>11AM-8PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Thursday</td>
+                        <td>11AM-8PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday</td>
+                        <td>11AM-9PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Saturday</td>
+                        <td>11AM-9PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sunday</td>
+                        <td>CLOSED</td>
+                    </tr>
+                </table>
+            </aside>
+
+            <p>&copy; 2021 The Cookbook WEBT1320 Final Project</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

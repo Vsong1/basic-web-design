@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cookbook</title>
+    <link rel="shortcut icon" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $( "#accordion" ).accordion({
+                collapsible: true,
+                active: false,
+                heightStyle: "content"
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <div id="container">
+
+        <header>
+
+            <img src="images/logo.png" alt="The Cookbook" id="logo"><h1>THE COOKBOOK</h1>
+
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="2appet.html">APPETIZERS</a></li>
+                    <li><a href="3main.html">ENTRÉES</a></li>
+                    <li><a href="4sides.html" id="active">SIDES</a></li>
+                    <li><a href="5dessert.html">DESSERTS</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+            <h4>Sides</h4>
+
+            <div class="fooditem">
+                <section class="fooditem_section">
+                    <img src="images/peppers.jpg" alt="stuffed peppers">
+                </section>
+
+                <aside class="fooditem_aside">
+                    <ul>
+                        <li>Fancy Stuffed Peppers</li>
+                        <li>$4.99</li>
+                        <li>Roasted bell peppers stuffed with lean ground beef, onions, and cheese. Grandma Sally used to love making these.</li>
+                    </ul>
+                </aside>
+            </div>
+
+            <div class="fooditem">
+                <section class="fooditem_section">
+                    <img src="images/asparagus.jpg" alt="asparagus">
+                </section>
+
+                <aside class="fooditem_aside">
+                    <ul>
+                        <li>Roasted Asparagus</li>
+                        <li>$4.99</li>
+                        <li>A small dish of asparagus stir-fried with shrimp. Cooked with butter and garlic, and a dash of olive oil.</li>
+                    </ul>
+                </aside>
+            </div>
+
+            <div class="fooditem">
+                <section class="fooditem_section">
+                    <img src="images/rice.jpg" alt="dirty rice">
+                </section>
+
+                <aside class="fooditem_aside">
+                    <ul>
+                        <li>Shrimp and Pepper Rice</li>
+                        <li>$5.99</li>
+                        <li>Fried jasmine rice with buttered shrimp, white onions, cayenne peppers and freshly-chopped chives.</li>
+                    </ul>
+                </aside>
+            </div>
+
+            <div class="fooditem">
+                <section class="fooditem_section">
+                    <img src="images/bowloffries.jpg" alt="bowl of fries">
+                </section>
+
+                <aside class="fooditem_aside">
+                    <ul>
+                        <li>Bowl of Fries</li>
+                        <li>$3.99</li>
+                        <li>Potato fries fresh out of peanut oil. Topped with a special herb blend. Grandma Sally always put it in a bowl. </li>
+                    </ul>
+                </aside>
+            </div>
+
+        </main>
+
+        <footer>
+            <section id="footer_section">
+                <img src="images/map.jpg" alt="corner of Main and 3rd St">
+                <ul>
+                    <li>123 Main St</li>
+                    <li>Litteltown, CT 00000</li>
+                    <li>(123) 456-7890</li>
+                    <li>contactus@thecookbook.com</li>
+                </ul>
+
+            </section>
+
+            <aside id="footer_aside">
+                <!-- HOURS -->
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>HOURS</th>
+                    </tr>
+
+                    <tr>
+                        <td>Monday</td>
+                        <td>11AM-8PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>11AM-8PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>11AM-8PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Thursday</td>
+                        <td>11AM-8PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday</td>
+                        <td>11AM-9PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Saturday</td>
+                        <td>11AM-9PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sunday</td>
+                        <td>CLOSED</td>
+                    </tr>
+                </table>
+            </aside>
+
+            <p>&copy; 2021 The Cookbook WEBT1320 Final Project</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

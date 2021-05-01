@@ -1,0 +1,404 @@
+/* color scheme https://coolors.co/6cc9d7-434243-e7d6aa-826a48-fff2cd-cccccc */
+
+/* global styles */
+@font-face {
+    font-family: "Playfair Display";
+    src: url("PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.slicknav_menu {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #6CC9D7;
+    color: #434243;
+}
+
+header h1 {
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color: #434243;
+}
+
+#active {
+    color: #E7D6AA;
+}
+
+main h1 {
+    text-align: center;
+    color: #FFF2CD;
+    text-shadow: 1px 1px black;
+}
+
+main h2, h4 {
+    color: #826A48;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+main h4 {
+    text-align: center;
+}
+
+img, audio {
+    max-width: 100%;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    background-color: #CCCCCC;
+    color: #434243;
+}
+
+.fooditem {
+    background-color: #FFF2CD;
+}
+
+#container {
+    width: 100%;
+    background-color: #E7D6AA;
+}
+
+/* mobile styles */
+
+    #menu {
+        display: none;
+    }
+
+    header {
+        padding: 5px 0;
+    }
+
+    header h1 {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    main {
+        margin: 0;
+        padding: 0;
+    }
+
+    p, h3 {
+        font-size: 1em;
+    }
+
+    h1, h4 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    main li {
+        font-size: 1em;
+    }
+
+    #accordion .ui-accordion-header {
+        background-image: none;
+        background-color: #434243;
+        color: #E7D6AA;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 1em;
+        padding: 10px 20px;
+        margin: 20px 0 0;
+        border: none;
+        border-radius: 0;
+    }
+
+    #accordion .ui-accordion-header-icon {
+        display: none;
+    }
+
+    #accordion .ui-accordion-content {
+        background-image: none;
+        background-color: #E7D6AA;;
+        border: none;
+        padding: 0 10px;
+        color: #434243;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1em;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    footer {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    footer img {
+        display: block;
+        margin: 0 20px 10px;
+        max-width: 80%;
+    }
+
+    #footer_section, #footer_aside {
+        padding: 10px 0;
+    }
+
+    footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0 20px;
+    }
+
+    footer li {
+        font-size: 1em;
+    }
+
+    footer table {
+        padding: 0 20px;
+    }
+
+    footer p {
+        padding: 0 20px;
+    }   
+
+    #motto {
+        display: block;
+        background-image: url("macarons.jpg");
+        background-position: center;
+        background-size: cover;
+        padding: 10px 0;
+        max-width: 100%;
+    }
+
+    #home_section, #mobile {
+        padding: 10px;
+    }
+
+    #mobile {
+        margin: 10px;
+        border: 5px #434243 double;
+    }
+
+    #home_aside {
+        display: none;
+    }
+
+    .fooditem {
+        margin: 10px 20px;
+        padding: 10px 0;
+        line-height: 2em;
+    }
+
+    .fooditem_section, .fooditem_aside {
+        padding: 0 10px;
+    }
+
+    .fooditem img {
+        display: block;
+        margin: auto;
+    }
+
+
+/* tablet styles */
+@media only screen and (min-width: 768px) {
+    #logo {
+        display: inline-block;
+        height: 36px;
+        width: 36px;
+        vertical-align: text-bottom;
+    }
+
+    header h1 {
+        display: inline;
+        width: 20%;
+        font-size: 2em;
+    }
+
+    #menu {
+        width: 40%;
+        display: inline;
+    }
+
+    nav {
+        padding: 10px;
+        float: right;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        font-size: 1em;
+    }
+
+    .slicknav_menu {
+        display: none;
+    }
+
+    main {
+        width: 70%;
+        margin: auto;
+    }
+
+    p, h3 {
+        font-size: 1.25em;
+    }
+
+    h1, h4 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    main li {
+        font-size: 1.25em;
+    }
+
+    #accordion .ui-accordion-header, .ui-accordion-content {
+        font-size: 1.25em;
+    }
+
+    ul {
+        padding: 0 20px;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+
+    #footer_section {
+        display: inline-block;
+        width: 50%;
+    }
+
+    #footer_aside {
+        padding: 0 20px;
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+    }
+
+    footer th, td {
+        font-size: 1.25em;
+        padding: 5px 10px;
+    }
+
+    footer p, li {
+        font-size: 1.25em;
+    }
+
+    .fooditem {
+        margin: 10px 20px;
+        padding: 10px 0;
+    }
+
+    .fooditem_section, .fooditem_aside {
+        padding: 10px 20px;
+    }
+
+}
+
+/* desktop styles */
+@media only screen and (min-width: 1024px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    #logo {
+        height: 40px;
+        width: 40px;
+    }
+
+    nav li {
+        padding: 5px 20px;
+        font-size: 1em;
+    }
+
+    nav li a:hover {
+        color: #E7D6AA;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    #motto {
+        padding: 50px;
+        font-size: 2em;
+    }
+
+    #motto:hover {
+        background-image: url('plumcake.jpg');
+    }
+
+    #motto:hover h1 {
+        color: #6CC9D7;
+    }
+
+    #home_section {
+        display: block;
+        width: 65%;
+        padding: 20px 40px 20px 0;
+    }
+
+    #home_aside {
+        display: block;
+        width: 30%;
+        margin-top: 20px;
+    }
+
+    #home {
+        display: flex;
+        padding: 0 10%;
+    }
+
+    #accordion .ui-accordion-header, .ui-accordion-content {
+        font-size: 1.5em;
+    }
+
+    .fooditem {
+        display: flex;
+    }
+
+    .fooditem_section, .fooditem_aside {
+        width: 50%;
+    }
+
+    .fooditem li {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+
+}
