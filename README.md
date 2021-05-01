@@ -9,3 +9,4 @@
 <br><a href="lab_6/index.html" target="_blank">Lab 6</a> - The Festival of Lanterns (responsive)
 <br><a href="lab_7/index.html" target="_blank">Lab 7</a> - Soft Songs for Children
 <br><a href="lab_8/index.html" target="_blank">Lab 8</a> - Strumming Strings
+<br><a href="final_project/index.html" target="_blank">Final Project</a> - The Cookbook
